@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Money Notebook privacy policy</title>
+<meta name="description" content="How Money Notebook handles bank messages, Gmail and statement data: kept on your own phone and computer, never shared.">
+<style>
+  :root {
+    --bg: #f7f6f2; --card: #ffffff; --ink: #1d2320; --muted: #5b6460; --line: #e3e1da; --accent: #1f6f54; --accent-soft: #e4f1ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141816; --card: #1c211f; --ink: #e9ece9; --muted: #a3aca7; --line: #2c3330; --accent: #7fd1ad; --accent-soft: #1f2d27; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 24px; }
+  .back { font-size: 0.9375rem; }
+  h1 { font-size: 1.875rem; line-height: 1.2; margin: 16px 0 4px; }
+  .updated { color: var(--muted); margin: 0 0 24px; font-size: 0.9375rem; }
+  .summary { background: var(--accent-soft); border-radius: 14px; padding: 18px 20px; margin: 0 0 28px; font-size: 1.0625rem; }
+  h2 { font-size: 1.1875rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  ul { margin: 8px 0 0; padding-left: 20px; }
+  li { margin: 6px 0; }
+  p { margin: 8px 0 0; }
+  a { color: var(--accent); }
+  footer { max-width: 720px; margin: 0 auto; padding: 8px 16px 40px; color: var(--muted); font-size: 0.875rem; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="./">← Money Notebook</a>
+  <h1>Privacy policy</h1>
+  <p class="updated">Last updated 8 November 2026</p>
+
+  <p class="summary">Money Notebook keeps your money records on your own phone and your own computer. It has no servers, shows no ads, and never sells, shares or uploads your data to anyone.</p>
+
+  <h2>Who uses this app</h2>
+  <p>Money Notebook is a personal Android app, made for and used by its developer. It isn't listed on Google Play. In this policy, "you" means the person using the app on their own phone.</p>
+
+  <h2>What the app reads</h2>
+  <ul>
+    <li><b>Text messages</b>, with Android's SMS permission, to spot bank and card alerts.</li>
+    <li><b>Notifications from messaging and UPI apps</b>, only if you allow notification access in Android settings, so alerts sent as chat (RCS) messages are not missed. Notifications from other apps are ignored.</li>
+    <li><b>Gmail, read-only</b>, only if you connect a Gmail account. The app searches for emails from banks and card companies: payment alerts and statement emails. It can't send, delete, label or change any email, and it does not open other emails.</li>
+    <li><b>Statement PDFs</b> attached to those bank emails. A PDF is opened in the phone's memory, and the temporary copy is deleted straight after reading. If a statement is password-protected, you type the password; it is used once and never saved.</li>
+  </ul>
+
+  <h2>What the app keeps</h2>
+  <ul>
+    <li><b>For each payment:</b> date, amount, the account's last four digits, who was paid, and a category.</li>
+    <li><b>Message text:</b> the text of a bank alert (for an email, only the part around the amount) is kept for 30 days so it can be re-checked, then deleted. After that only a fingerprint remains: a one-way code that stops the same message being counted twice.</li>
+    <li><b>For each statement:</b> only the summary figures (statement date, balance, amount due, minimum due, due date, credit limit and available limit). The PDF itself is not kept.</li>
+    <li><b>Housekeeping:</b> the IDs of emails already read, so they are not read twice, and the time of the last check.</li>
+    <li><b>Things you type in</b>, such as khata entries, notes and edits.</li>
+  </ul>
+
+  <h2>Where it is stored</h2>
+  <ul>
+    <li>In an encrypted database on your phone. Its key is protected by the phone's secure hardware (Android Keystore), and the app hides its screens from screenshots.</li>
+    <li>A copy goes only to your own Windows computer, directly over your home Wi-Fi, after you pair the two with a QR code. The computer's copy is also kept in an encrypted database.</li>
+    <li>There are no Money Notebook servers or cloud storage. Gmail is read directly between your phone and Google.</li>
+    <li>The app has no advertising, analytics or crash-reporting tools.</li>
+  </ul>
+
+  <h2>Google user data</h2>
+  <p>Data from Gmail is used only to record your own payments and statement figures inside Money Notebook. It is not transferred to anyone else, not used for advertising, not used to train AI models, and not sold.</p>
+  <p>Money Notebook's use and transfer of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    including the Limited Use requirements.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><b>Disconnect Gmail</b> at any time from the app's Data tab, which also withdraws the app's access at Google, or from your Google Account at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li><b>Turn off SMS or notification access</b> in Android settings.</li>
+    <li><b>Delete everything</b> by uninstalling the app, which erases its data on the phone, and deleting its folder on your computer.</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+</main>
+<footer><a href="./">Money Notebook</a> · Privacy policy</footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Money Notebook</title>
+<meta name="description" content="Money Notebook is a personal Android app that keeps a private record of where money goes, built from bank messages, bank emails and statements.">
+<style>
+  :root {
+    --bg: #f7f6f2; --card: #ffffff; --ink: #1d2320; --muted: #5b6460; --line: #e3e1da; --accent: #1f6f54; --accent-soft: #e4f1ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141816; --card: #1c211f; --ink: #e9ece9; --muted: #a3aca7; --line: #2c3330; --accent: #7fd1ad; --accent-soft: #1f2d27; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 24px; }
+  .mark { width: 52px; height: 52px; border-radius: 14px; background: var(--accent); color: var(--bg); display: grid; place-items: center;
+          font-size: 28px; font-weight: 700; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 20px 0 8px; }
+  .lede { font-size: 1.125rem; color: var(--muted); margin: 0 0 32px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; margin: 0 0 16px; }
+  h2 { font-size: 1.125rem; margin: 0 0 10px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin: 6px 0; }
+  p { margin: 8px 0 0; }
+  a { color: var(--accent); }
+  .button { display: inline-block; margin-top: 12px; padding: 8px 14px; border-radius: 999px; background: var(--accent-soft); text-decoration: none; font-weight: 600; }
+  footer { max-width: 680px; margin: 0 auto; padding: 8px 16px 40px; color: var(--muted); font-size: 0.875rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true">₹</div>
+  <h1>Money Notebook</h1>
+  <p class="lede">A personal Android app that keeps a private notebook of where money goes, built from bank messages, bank emails and statements.</p>
+
+  <section>
+    <h2>What it does</h2>
+    <ul>
+      <li><b>Notes payments by itself.</b> It reads bank and card alerts from text messages and, if you connect Gmail, from bank emails.</li>
+      <li><b>Reads statements.</b> From bank and credit-card statement PDFs it picks up the summary: statement date, balance, amount due, due date and credit limit.</li>
+      <li><b>Keeps a khata.</b> A simple ledger of money lent to and received from friends and family.</li>
+      <li><b>Shows the big picture.</b> Spending, income and balances month by month, with amounts hidden until you tap to see them.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Private by design</h2>
+    <ul>
+      <li>Your records stay on your phone and your own computer. Money Notebook has no servers.</li>
+      <li>Gmail access is read-only, and the app looks only at emails from banks and card companies.</li>
+      <li>No ads, no analytics, and no selling or sharing of data.</li>
+    </ul>
+    <a class="button" href="privacy.html">Read the privacy policy</a>
+  </section>
+
+  <section>
+    <h2>Who it's for</h2>
+    <p>Money Notebook is a personal project, made for and used by its developer. It isn't listed on Google Play.</p>
+  </section>
+</main>
+<footer>© 2026 Money Notebook · <a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
